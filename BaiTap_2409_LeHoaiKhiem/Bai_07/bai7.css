@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE4EC;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    background-color: #F8BBD0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #D81B60;
+    background-color: #D81B60;
+    color: white;
+    cursor: pointer;
+}
+label, h1 {
+    color: #AD1457;
+}
+p.result {
+    font-weight: bold;
+}
