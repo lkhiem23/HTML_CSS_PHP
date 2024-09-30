@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width", initial-scale=1>
+     <link rel="stylesheet" href="card.css">
+     <title> Design </title>
+
+</head>
+  <body>
+    <div class="card">
+      <div class="content-section">
+          <h2 class="section-heading text-white">QUẢN LÍ GIÁO VIÊN</h2>
+      </div>
+      <form method ="POST" action ="add_gv.php">  
+         <table>
+         <tr>
+           <td>Mã giáo viên</td>
+           <td><input type="text" name = "mgv"></td>
+         </tr>
+         <tr>
+         <tr>
+           <td>Tên giáo viên</td>
+           <td><input type="text" name = "ten"></td>
+         </tr>
+         <tr>
+           <td>Trình độ CM</td>
+           <td><input type="text" name = "lvl"></td>
+         </tr>
+         
+         <tr>
+           <td>Môn dạy</td>
+           <td><input type="text" name = "mon"></td>
+         </tr>
+         <tr>
+           <td></td>
+           <td><input type="submit" name = "add" value="Thêm mới">
+           <input type="reset" name = "undo" value="Nhập lại"></td>
+         </tr>
+         </table>
+      </form>
+      
+    </div>
+  </body>
+</html>
