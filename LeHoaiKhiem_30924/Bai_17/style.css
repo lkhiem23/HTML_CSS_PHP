@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50vh;
+}
+
+.container {
+    background-color: #db95b7;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1#tren {
+    background-color: #c63768;
+    color: white;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 0; /* Thêm padding để tạo khoảng cách */
+}
+
+h1#duoi {
+    background-color: #c63768;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0; /* Thêm padding để tạo khoảng cách */
+}
+
+.result {
+    width: 400px;
+    height: auto;
+}
