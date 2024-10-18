@@ -10,7 +10,7 @@
 <body>
     <form action="" method="post">
         <div class="container">
-            <h1>ƯỚC SỐ CHUNG LỚN NHẤT Và BỘI SỐ CHUNG NHỎ NHẤT</h1>
+            <h1>ƯỚC SỐ CHUNG LỚN NHẤT Và BỘI SỐ CHUNG NHỎ NHẤT </h1>
             
             <div class="form-group">
                 <label for="soA">Số a :</label>
