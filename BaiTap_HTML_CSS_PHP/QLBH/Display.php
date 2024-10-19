@@ -13,7 +13,7 @@
         if (!$connect) {
             die("Kết nối thất bại: " . mysqli_connect_error());
         }
-        $query = "SELECT * FROM vanphongpham WHERE ncc = 'Thiên Long'";
+        $query = "SELECT * FROM vanphongpham WHERE ncc = 'Thiên Long' ";
         $result = $connect->query($query);
 
         if ($result->num_rows > 0) {
