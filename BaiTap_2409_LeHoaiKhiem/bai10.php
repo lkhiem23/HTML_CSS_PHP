@@ -72,8 +72,8 @@
                 if ($start_time >= 0 && $start_time <= 24 && $end_time >= 0 && $end_time <= 24) {
                     // Calculate the cost
                     $total_cost = 0;
-                    $price_before_17h = 20000; // 20,000 VND per hour before 17h
-                    $price_after_17h = 45000;  // 45,000 VND per hour after 17h
+                    $price_before_17h = 20000; 
+                    $price_after_17h = 45000;  
 
                     // Handle case where end_time is earlier than start_time (overnight usage)
                     if ($end_time < $start_time) {
