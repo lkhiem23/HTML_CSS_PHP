@@ -1,8 +1,8 @@
-body{
+body {
     height: 100%;
     background: linear-gradient(to right, #87CEEB, #1E90FF);
 }
-.card{
+.card {
     width: 300px;
     height: 200px;
     background-color: rgb(255,240,245);
