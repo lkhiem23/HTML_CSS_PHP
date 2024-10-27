@@ -20,7 +20,7 @@
             echo "<h2>Danh sách thuốc có nhà cùng cấp Thiên Long:</h2>";
             echo "<table><tr><th>Mã Hàng</th><th>Tên Hàng</th><th>Nhà Cung Cấp</th><th>Giá</th></tr>";
             while($row = $result->fetch_assoc()) {
-                echo "<tr><td>" .$row["mah"]. "</td><td>" .$row["tenhang"]. "</td><td>" .$row["ncc"]. "</td><td>" .$row["gia"]. "</td></tr>";
+                echo "<tr><td>" .$row["mah"]. " </td><td> " .$row["tenhang"]. "</td><td>" .$row["ncc"]. "</td><td>" .$row["gia"]. "</td></tr>";
             }
             echo "</table>";
         } 
