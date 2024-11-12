@@ -1,6 +1,7 @@
 <?php
 // Kết nối đến cơ sở dữ liệu
 $conn = new mysqli("localhost:3366", "root", "", "ql_ban_sua");
+
 if ($conn->connect_error) {
     die("Kết nối thất bại: " . $conn->connect_error);
 }
@@ -19,6 +20,7 @@ if (!$result) {
     die("Truy vấn thất bại: " . $conn->error);
 }
 ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +42,7 @@ if (!$result) {
             color: skyblue;
         }
     </style>
+    
 </head>
 <body>
     <div class="container">
