@@ -9,7 +9,7 @@
             document.getElementById('result').value = primes; 
         }
     </script>
-    <!-- Liên kết đến tệp CSS bên ngoài -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
